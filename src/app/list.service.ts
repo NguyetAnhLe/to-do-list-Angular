@@ -38,7 +38,7 @@ export class listService{
     for(var i = 0; i < this.items.length; i++){
       let temp = this.items[i];
       let subString = "";
-      if(temp.length > lengthInput) {
+      if(temp.length >= lengthInput) {
         let j = 0;
         while(j < lengthInput){
           subString +=temp.charAt(j);
