@@ -1,0 +1,19 @@
+.body-comp{
+  margin: 5% 10% 5%;
+  padding: 2% 3% 2%;
+  border: 2px black solid;
+  background-color: white;
+  width : 50%;
+}
+
+.add-item{
+  padding-bottom: 10px;
+
+}
+.show-list{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.search-item input{
+  width: 200px;
+}
