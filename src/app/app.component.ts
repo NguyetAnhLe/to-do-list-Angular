@@ -12,7 +12,7 @@ export class AppComponent {
   items;
   newItem = "";
   searchText = "";
-  input: bool= false;
+
 
   constructor(private _listService : listService){}
 
